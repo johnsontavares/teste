@@ -1,0 +1,9 @@
+version: '3'
+services:
+  react-ui:
+    build:
+      context: ./Frontend_Myllar
+    container_name: react-ui
+    stdin_open: true
+    ports:
+      - "5173:5173"
